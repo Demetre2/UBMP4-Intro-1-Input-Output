@@ -80,9 +80,11 @@ int main(void)
  * 1. How many times do the LEDs flash if SW2 is quickly pressed and released?
  *    Do the LEDs keep flashing when SW2 is held? Look at the program and
  *    explain why this happens when SW2 is held.
- * 
+ * The LEDs flash once if SW2 is pressed, and will flash for as long as it is held.
+
  * 2. Explain the difference between the statements: LED3 = 0; and LED3 = 1;
- * 
+ * LED3 = 0 outputs 0V to the LED. LED3 = 1 outputs SV to the LED3
+ 
  * 3. What voltage do you expect the microcontroller to output to LED D3 when
  *    the statement LED3 = 0; runs? What voltage do you expect the output to be
  *    when the statement LED3 = 1; runs?
